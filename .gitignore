@@ -83,6 +83,7 @@ proguard/
 *.ipr
 *~
 *.swp
+**/fonts/
 
 # Keystore files
 
