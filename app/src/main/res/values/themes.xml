@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Food" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/orange_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="fontFamily">@font/iran_sans_fanum_medium</item>
+
+        <item name="android:statusBarColor">@color/orange</item>
+
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOutline">@color/orange</item>
+        <item name="colorOnBackground">@color/back</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Food" parent="Base.Theme.Food" />
+
+    <style name="MyToolBar" parent="Widget.Material3.Toolbar">
+
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <item name="colorControlNormal">#FF7042</item>
+
+    </style>
+
+    <style name="MyText" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="fontFamily">@font/dana_medium</item>
+
+    </style>
+</resources>

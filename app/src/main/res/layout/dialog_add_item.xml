@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="ltr"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:textDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:text="اضافه کردن غذای جدید"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="اسم غذا"
+            app:boxStrokeColor="?attr/colorOutline"
+            app:counterEnabled="true"
+            app:counterMaxLength="34"
+            app:cursorColor="?attr/colorOutline"
+            app:hintTextColor="?attr/colorOutline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialog_edt_foodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="34"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="توضیحات"
+            app:boxStrokeColor="?attr/colorOutline"
+            app:counterEnabled="true"
+            app:counterMaxLength="150"
+            app:cursorColor="?attr/colorOutline"
+            app:hintTextColor="?attr/colorOutline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialog_edt_foodDis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="150"
+                android:maxLines="5" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="زمان آماده شدن"
+            app:boxStrokeColor="?attr/colorOutline"
+            app:counterEnabled="true"
+            app:counterMaxLength="3"
+            app:cursorColor="?attr/colorOutline"
+            app:helperText="زمان آماده شدن را به دقیقه وارد کنید !"
+            app:hintTextColor="?attr/colorOutline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialog_edt_foodTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="3" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/priceInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="قیمت"
+            app:boxStrokeColor="?attr/colorOutline"
+            app:counterEnabled="true"
+            app:counterMaxLength="9"
+            app:cursorColor="?attr/colorOutline"
+            app:helperText="قیمت را به تومان وارد کنید !"
+            app:hintTextColor="?attr/colorOutline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialog_edt_foodPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="32dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:backgroundTint="@color/orange_dark"
+                android:text="لغو"
+                android:textColor="@color/white"
+                app:icon="@drawable/ic_cancel"
+                app:iconGravity="start"
+                app:iconTint="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialog_btn_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:backgroundTint="@color/green"
+                android:text="تایید"
+                android:textColor="@color/white"
+                app:icon="@drawable/ic_done"
+                app:iconGravity="start"
+                app:iconTint="@color/white" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
