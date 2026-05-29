@@ -7,6 +7,13 @@
 
 A simple demo application for introducing and browsing foods, built with **Kotlin**, **XML**, and **MVP** (Model-View-Presenter) architecture.
 
+## 📸 Pictures
+
+| Light Mode | Dark Mode |
+|--|--|
+| ![enter image description here](demo/shot1.jpg) | ![enter image description here](demo/shot2.jpg) |
+| ![enter image description here](demo/shot3.jpg) | ![enter image description here](demo/shot4.jpg) |
+
 ## 🎯 Project Goal
 
 This project is designed as a demo to showcase the following skills:
@@ -31,10 +38,3 @@ This project is designed as a demo to showcase the following skills:
 | User Interface | XML |
 | Min SDK | 24 (Android 7) |
 | IDE | Android Studio |
-
-## 📸 Pictures
-
-| Light Mode | Dark Mode |
-|--|--|
-| ![enter image description here](demo/shot1.jpg) | ![enter image description here](demo/shot2.jpg) |
-| ![enter image description here](demo/shot3.jpg) | ![enter image description here](demo/shot4.jpg) |

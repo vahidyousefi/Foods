@@ -7,6 +7,13 @@
 
 یک اپلیکیشن نمایشی ساده برای معرفی و مرور غذاها، با استفاده از **Kotlin**، **XML** و معماری **MVP** (Model-View-Presenter).
 
+## 📸 تصاویر برنامه
+
+| Light Mode | Dark Mode |
+|--|--|
+| ![enter image description here](demo/shot1.jpg) | ![enter image description here](demo/shot2.jpg) |
+| ![enter image description here](demo/shot3.jpg) | ![enter image description here](demo/shot4.jpg) |
+
 ## 🎯 هدف پروژه
 
 این پروژه به عنوان یک نمونه کار (Demo) برای نمایش مهارت‌های زیر طراحی شده است:
@@ -31,13 +38,6 @@
 | رابط کاربری | XML |
 | حداقل SDK | ۲۴ (اندروید ۷) |
 | IDE | Android Studio |
-
-## 📸 تصاویر برنامه
-
-| Light Mode | Dark Mode |
-|--|--|
-| ![enter image description here](demo/shot1.jpg) | ![enter image description here](demo/shot2.jpg) |
-| ![enter image description here](demo/shot3.jpg) | ![enter image description here](demo/shot4.jpg) |
 
 ## 🚀 نحوه اجرا
 
