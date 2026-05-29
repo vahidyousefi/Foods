@@ -6,7 +6,7 @@
 🌐 [English](README.md) | [فارسی](README.fa.md)
 
 
-## 📸 تصاویر برنامه
+## 📸 Pictures
 
 | Light Mode | Dark Mode |
 |--|--|
